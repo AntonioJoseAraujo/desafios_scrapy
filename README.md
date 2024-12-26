@@ -35,10 +35,13 @@ Scrapy/
 ├── README.md
 ├── requirements.txt
 ├── scrapy.cfg
-└── spiders/
-    ├── __init__.py
-    ├── spider1.py
-    └── spider2.py
+├── spiders/
+│   ├── __init__.py
+│   ├── desafio_extracao_dados_site.py
+│   ├── desafio_extracao_varias_paginas.py
+│   └── ...
+
+    
 ```
 ## 🛠 Tecnologias Usadas
 - Python
