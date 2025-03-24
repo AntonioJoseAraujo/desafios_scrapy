@@ -15,17 +15,20 @@ Aqui você encontrará diferentes spiders e scripts que extraem dados de website
 
 2. Navegue até a pasta do projeto:
     ```sh
-    cd Scrapy
+    cd extracao_dados
     ```
 
-3. Ative seu ambiente virtual e instale as dependências:
+3. Ative seu ambiente virtual:
     ```sh
-    pip install -r requirements.txt
+    nome_do_ambiente\scripts\activate
     ```
-
-4. Execute um dos spiders:
+4. Instalar scrapy:
+   ```sh
+    pip install scrapy
+    ```
+5. Execute um dos spiders:
     ```sh
-    scrapy crawl nome_do_spider -o saida.csv
+    scrapy crawl nome_do_spider -O saida.csv
     ```
 
 ## 📂 Estrutura do Projeto
@@ -33,13 +36,13 @@ Aqui você encontrará diferentes spiders e scripts que extraem dados de website
 ```plaintext
 Scrapy/
 ├── README.md
-├── requirements.txt
-├── scrapy.cfg
-├── spiders/
-│   ├── __init__.py
-│   ├── desafio_extracao_dados_site.py
-│   ├── desafio_extracao_varias_paginas.py
-│   └── ...
+├── extracao_dados
+|   ├── extracao_dados
+|   ├── spiders/
+|   │   ├── __init__.py
+|   │   ├── desafio_extracao_dados_site.py
+|   │   ├── desafio_extracao_varias_paginas.py
+|   │   └── ...
 
     
 ```
