@@ -1,56 +1,64 @@
-# Desafios Scrapy
+# 🕷️ Desafios com Scrapy — Antônio José de Araújo
 
-Este repositório contém vários desafios resolvidos usando Scrapy, uma biblioteca de scraping para Python. **O projeto está atualmente em andamento**.
+> Coleção de desafios práticos com Scrapy, explorando coleta, tratamento e exportação de dados da web.
 
-## 📋 Descrição
+---
 
-Aqui você encontrará diferentes spiders e scripts que extraem dados de websites. Cada desafio está bem documentado para facilitar o entendimento. O 'antonio' é o ambiente virtual para os projetos. Este projeto está em progresso e novas funcionalidades e melhorias serão adicionadas conforme eu avanço no curso.
+## 📋 O que este repositório contém
 
-## 🚀 Como Usar
+Scripts de web scraping desenvolvidos com Scrapy que varrem páginas web, coletam dados estruturados e os exportam em formatos como CSV e JSON.
 
-1. Clone este repositório:
-    ```sh
-    git clone https://github.com/AntonioJoseAraujo/Scrapy.git
-    ```
+### Funcionalidades exploradas:
+- Criação de Spiders para diferentes tipos de sites
+- Extração de dados com XPath e CSS Selectors
+- Exportação automática para CSV e JSON
+- Tratamento de paginação e múltiplas páginas
+- Pipelines de processamento de dados
 
-2. Navegue até a pasta do projeto:
-    ```sh
-    cd extracao_dados
-    ```
+---
 
-3. Ative seu ambiente virtual:
-    ```sh
-    nome_do_ambiente\scripts\activate
-    ```
-4. Instalar scrapy:
-   ```sh
-    pip install scrapy
-    ```
-5. Execute um dos spiders:
-    ```sh
-    scrapy crawl nome_do_spider -O saida.csv
-    ```
+## 🛠️ Tecnologias Utilizadas
 
-## 📂 Estrutura do Projeto
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=for-the-badge&logo=scrapy&logoColor=white)
 
-```plaintext
-Scrapy/
-├── README.md
-├── extracao_dados
-|   ├── extracao_dados
-|   ├── spiders/
-|   │   ├── __init__.py
-|   │   ├── desafio_extracao_dados_site.py
-|   │   ├── desafio_extracao_varias_paginas.py
-|   │   └── ...
+---
 
-    
+## 🚀 Como executar
+```bash
+# Clone o repositório
+git clone https://github.com/AntonioJoseAraujo/desafios_scrapy.git
+cd desafios_scrapy
+
+# Instale as dependências
+pip install scrapy
+
+# Execute uma spider
+scrapy crawl nome_da_spider
+
+# Exportar dados para CSV
+scrapy crawl nome_da_spider -o resultado.csv
+
+# Exportar dados para JSON
+scrapy crawl nome_da_spider -o resultado.json
 ```
-## 🛠 Tecnologias Usadas
-- Python
-- Scrapy
 
-### 📫 Como me encontrar
+---
 
-- [LinkedIn](https://www.linkedin.com/in/antonio-jose-de-araujo/)
-- [E-mail](dev.antonioaraujo@gmail.com)
+## 💡 O que aprendi
+
+- Estrutura de projetos Scrapy (spiders, pipelines, settings)
+- Extração de dados com XPath e CSS Selectors
+- Tratamento e limpeza de dados coletados
+- Exportação em múltiplos formatos (CSV, JSON)
+- Navegação em sites com paginação
+
+---
+
+## 👤 Sobre mim
+
+Estudante de Análise e Desenvolvimento de Sistemas (ADS) na UNIP — Ribeirão Preto/SP.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-j-araujo)
+[![Portfolio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=wix&logoColor=white)](https://devantonioaraujo.wixsite.com/antonioaraujo)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev.antonioaraujo@gmail.com)
